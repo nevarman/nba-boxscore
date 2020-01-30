@@ -1,4 +1,4 @@
-#Polybar Nba Boxscore Module
+# Polybar Nba Boxscore Module
 
 A small python script to show nba latest boxscore:
 
