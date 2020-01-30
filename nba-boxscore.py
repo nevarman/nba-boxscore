@@ -46,9 +46,9 @@ for date in games_cached.get(t_day).games:
     game = value[index]
     if game['winning_name'] == game['home_name']:  # check winning team
         home_color = '%{F#ECEFF4}'
-        away_color = '%{F#7B8394}'
+        away_color = '%{F#2E3440}'
     else:
-        home_color = '%{F#7B8394}'
+        home_color = '%{F#2E3440}'
         away_color = '%{F#ECEFF4}'
     output = '%s | %s%s%s %s%s%s - %s%s%s %s%s%s' % (date,
                                                      home_color, game['home_name'], '%{F-}',
